@@ -5,9 +5,11 @@
 using namespace std;
 
 
+
+
 void Manage::print() {
-	cout << "Â·ÓÉÆ÷ºÅ" << endl;  
-	cout<<"¼ÆËã»úÍøÂçÉÏ»úÊµÏ°"<<endl; 
+	cout << "è·¯ç”±å™¨å·" << endl;  
+	cout<<"è®¡ç®—æœºç½‘ç»œä¸Šæœºå®žä¹ "<<endl; 
 	for (int a = 0; a<numNodes; a++)
 	{
 		cout << vexs[a] << "	";
@@ -61,7 +63,7 @@ void Manage::shortest(int a)
 			}
 		}
 	}
-	cout << "Â·ÓÉÆ÷" << a << "µÄÂ·ÓÉ±íÎªÏÂ" << endl;
+	cout << "è·¯ç”±å™¨" << a << "çš„è·¯ç”±è¡¨ä¸ºä¸‹" << endl;
 	for (i = 0; i < n; i++)
 	{
 		if (i != v)
@@ -73,7 +75,7 @@ void Manage::shortest(int a)
 				j = path[j];
 			}
 
-			cout << "µ½Â·ÓÉÆ÷" << vexs[i] << "µÄ×î¶ÌÂ·¾¶Îª" << dist[i] << "   " << "ÏÂÒ»ÌøÎªÂ·ÓÉÆ÷" << vexs[l] << endl;
+			cout << "åˆ°è·¯ç”±å™¨" << vexs[i] << "çš„æœ€çŸ­è·¯å¾„ä¸º" << dist[i] << "   " << "ä¸‹ä¸€è·³ä¸ºè·¯ç”±å™¨" << vexs[l] << endl;
 		}
 	}
 	cout << "lhyyyy" << endl;
