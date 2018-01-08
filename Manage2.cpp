@@ -14,7 +14,7 @@ void Manage::readtxt()
 		getline(OpenFiled, str);
 		j++;
 	}
-	numNodes = j;
+	numNodes = j-1;
 	OpenFiled.close();
 	ifstream OpenFile("1.txt");
 	while (!OpenFile.eof())
