@@ -14,7 +14,7 @@ void Manage::readtxt()
 		getline(OpenFiled, str);
 		j++;
 	}
-	numNodes = j - 1;
+	numNodes = j;
 	OpenFiled.close();
 	ifstream OpenFile("1.txt");
 	while (!OpenFile.eof())
@@ -25,7 +25,7 @@ void Manage::readtxt()
 		i++;
 	}
 
-	cout << "Â·ÓÉÆ÷ºÅ" << "Ìí¼ÓµÄ¶«Î÷" << endl;
+	cout << "Ã‚Â·Ã“Ã‰Ã†Ã·ÂºÃ…" << "ÃŒÃ­Â¼Ã“ÂµÃ„Â¶Â«ÃŽÃ·" << endl;
 	for (int a = 0; a<numNodes; a++)
 	{
 		cout << vexs[a] << "	";
